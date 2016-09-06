@@ -9,3 +9,5 @@ build: clean
 test:
 	./fast_fasta.sh 25000000
 	./knucleotide.sh target/fasta.txt
+
+all: clean build test
