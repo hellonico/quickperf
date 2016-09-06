@@ -1,3 +1,17 @@
+# how to use 
+
+```
+# to compile java classes
+make build
+
+# to generate input file, bigger number bigger file
+./fast_fasta.sh 25000000
+
+# the file fasta.txt is generated in the target folder
+# use that as input file
+./knucleotide.sh target/fasta.txt
+```
+
 # long fast fasta
 
 ## softlayer
@@ -15,44 +29,3 @@ Nicolass-MacBook% ./fast_fasta.sh
 real    0m54.661s
 user    0m47.236s
 sys 0m2.958s
-
-# fasta macbook
-
-real	0m12.859s
-user	0m42.658s
-sys	0m0.616s
-
-# fast fasta macbook
-
-real    0m6.799s
-user    0m5.179s
-sys 0m0.648s
-
-# fast fasta SL
-
-## zulu
-real    0m7.498s
-user    1m4.619s
-sys 0m2.190s
-
-# fast knucleotide SL
-
-real    0m4.134s
-user    0m46.589s
-sys 0m0.362s
-
-real    0m4.790s
-user    0m46.196s
-sys 0m0.372s
-
-## zulu 
-
-real    0m4.222s
-user    0m47.031s
-sys 0m0.372s
-
-# fast knucleotide macbook
-
-real    0m17.124s
-user    0m43.973s
-sys 0m1.315s
