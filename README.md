@@ -12,6 +12,19 @@ make build
 ./knucleotide.sh target/fasta.txt
 ```
 
+# long knu
+
+## SL
+
+real    0m37.693s
+user    6m16.796s
+sys 0m3.516s
+
+## macbook
+real    3m14.540s
+user    9m4.400s
+sys 0m30.759s
+
 # long fast fasta
 
 ## softlayer

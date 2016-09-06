@@ -7,7 +7,7 @@ build: clean
 	javac knucleotide.java -d target
 
 test:
-	./fast_fasta.sh 25000000
+	./fast_fasta.sh 250000000
 	./knucleotide.sh target/fasta.txt
 
 all: clean build test
