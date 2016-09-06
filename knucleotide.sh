@@ -1,0 +1,1 @@
+time java $JAVA_OPTS knucleotide 100000000 < fasta25000000.txt
