@@ -1,1 +1,2 @@
-time java $JAVA_OPTS knucleotide 100000000 < fasta25000000.txt
+echo "Input file $1"
+time java $JAVA_OPTS knucleotide 0 < $1
